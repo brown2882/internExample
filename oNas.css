@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: #B81B21;
+    max-width: 1800px;
+    min-height: 100px;
+    display: flex;
+    color: white;
+}
+
+.logo{
+    width: 140px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+
+.navDiv{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 500px;
+    color: white;
+}
+
+
+.h3{
+    margin-left: 40px;
+}
+
+.a{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.vektor1{
+    z-index: -2;
+    position: absolute;
+    margin-left: 120px;
+}
+
+.p{
+    max-width: 500px;
+}
+.pOne{
+    max-width: 500px;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.mainDiv{
+    display: flex;
+    padding-left: 200px;
+    padding-top: 185px;
+}
+
+.mainDivOne{
+    display: flex;
+    padding-top: 100px;
+}
+
+
+.vektor3{
+    z-index: -2;
+    position: absolute;
+    max-width: 1400px;
+    margin-left: 50px;
+}
+
+.p1{
+    padding-left: 270px;
+    padding-top: 70px;
+    max-width: 1400px;
+    
+}
+
+.mainDivTwo{
+    margin-left: 100px;
+    display: flex;
+}
+
+.p2{
+    margin-left: 10px;
+    margin-top: 120px;
+}
+
+.p3{
+    max-width: 1200px;
+    margin-left: 200px;
+    
+}
+
+.line{
+    
+    width: 515px;
+    height: 2px; 
+    background-color: darkred;
+}
+
+.lineArrow{
+    display: flex;
+}
+
+.lineDiv{
+    margin-left: 1000px;
+    margin-top: 80px;
+}
+
+.arrow{
+    margin-top: 5px;
+    margin-left: 10px;
+    max-width: 30px;
+    height: 10px;
+}
+
+.footer{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+.h4{
+    color: #991B1F;
+    margin-left: 30px;
+}
+.h44{
+    color: #991B1F;
+    margin-left: 500px;
+}
