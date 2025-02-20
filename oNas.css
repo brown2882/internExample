@@ -28,6 +28,7 @@
 
 .h3{
     margin-left: 40px;
+    color: white;
 }
 
 .a{
@@ -126,8 +127,312 @@
 .h4{
     color: #991B1F;
     margin-left: 30px;
+    margin-top: 20px;
 }
 .h44{
+    margin-top: 20px;
     color: #991B1F;
-    margin-left: 500px;
+    margin-left: 140px;
+}
+
+.logFace{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.logFacee{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 250px;
+
+}
+.vectorUsulugi{
+    z-index: -2;
+    position: absolute;
+    max-width: 1400px;
+    min-height: 1400px;
+}
+
+.uslugiH2{
+    margin-left: 310px;
+    padding-top: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.pictureUslugi{
+    margin-top: 260px;
+    min-height: 350px;
+    max-width: 100%;
+    z-index: -3;
+    position: absolute;
+}
+
+.vektorUsugi2{
+    margin-top: 360px;
+    max-width: 100%;
+    z-index: -2;
+    position: absolute;
+}
+
+.uslugiDiv{
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    
+    background-image: url(./picture/cinema.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.uslugiDiv2{
+    z-index: -1;
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    margin-left: 480px;
+    margin-top: 60px;
+    text-align: center;
+    
+    background-image: url(./picture/Vall.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.uslugiDiv3{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+
+.uslugiH22{
+    color: white;
+    margin-top: 180px;
+}
+
+.uslugiDivArrow{
+    display: flex;
+    color: white;
+    margin-left: 110px;
+    margin-top: 140px;
+}
+
+.uslugiDivArrow2{
+    display: flex;
+    color: white;
+    margin-left: 180px;
+    margin-top: 400px;
+}
+
+.arrow3{
+    width: 30px;
+    height: 7px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.uslugiDiv4{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.pictureUslugii{
+    margin-top: 150px;
+    min-height: 350px;
+    max-width: 100%;
+    z-index: -3;
+    position: absolute;
+}
+
+
+.uslugiDiv33{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.logoo{
+    width: 140px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.navDivv{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 180px;
+    color: white;
+}
+
+
+.footerUslugi{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+.footerUslugi2{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 190px;
+}
+
+
+.uslugi2{
+    display: flex;
+}
+
+.h2{
+    margin-top: 30px;
+    margin-left: 300px;
+    font-weight: bold;
+  font-size: 2em;
+}
+
+.uslugi2cinema{
+    margin-top: 60px;
+    margin-left: 600px;
+    z-index: 2;
+    position: absolute;
+}
+
+.uslugi2Div{
+    margin-top: 60px;
+    background-image: url(./picture/uslugi\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    min-height: 500px;
+    z-index: -3;
+    /* position: absolute; */
+}
+
+.uslugi2P{
+    max-width: 400px;
+    min-height: 300px;
+    color: white;
+    padding-top: 20px;
+    margin-left: 170px;
+    padding-bottom: 200px;
+}
+
+.uslugi2Vector{
+    margin-left: 40px;
+    max-width: 1400px;
+    min-height: 1200px;
+    z-index: -2;
+    position: absolute;
+}
+
+
+.uslugi2DivOne{
+    display: flex;
+}
+
+.uslugi2pic{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 500px;
+    height: 550px;
+}
+
+.p5{
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.h22{
+    margin-top: 170px;
+    margin-left: 30px;
+}
+
+.h222{
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-top: 160px;
+    margin-left: 200px;
+}
+
+.mainDivv{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 110px;
+}
+
+.one{
+    width: 320px;
+    height: 400px;
+    background: 
+    linear-gradient(rgba(255, 0, 0, 0.6), transparent 60%), 
+    url(./picture/pashinyan2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: 20px;
+}
+.two{
+    width: 320px;
+    height: 400px;
+    background: 
+    linear-gradient(rgba(255, 0, 0, 0.6), transparent 60%), 
+    url(./picture/pashinyan2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: 20px;
+}
+
+.three{
+    width: 320px;
+    height: 400px;
+    background: 
+    linear-gradient(rgba(255, 0, 0, 0.6), transparent 60%), 
+    url(./picture/pashinyan2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: 20px;
+}
+
+.uslugi2arrow{
+    margin-top: 190px;
+    width: 70px;
+    height: 8px;
+}
+
+.uslugi2arrow2{
+    margin-top: 190px;
+    width: 70px;
+    height: 8px;
+    margin-left: 20px;
+}
+
+.divH2{
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.oneDiv{
+    display: flex;
+    color: white;
+    margin-top: 220px;
+    margin-left: 20px;
+}
+.logoArrow{
+    margin-top: 6px;
+    margin-left: 10px;
+    width: 40px;
+    height: 8px;
 }
