@@ -3,9 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
 .nav{
     background-color: #B81B21;
-    max-width: 1800px;
+    max-width: 1522px;
     min-height: 100px;
     display: flex;
     color: white;
@@ -257,17 +259,21 @@ background-position: center;
     margin-top: 30px;
 }
 
-.logoo{
-    width: 140px;
-    height: 50px;
-    margin-top: 20px;
-    margin-left: 300px;
-}
 
+
+
+.logoo {
+    margin-top: 20px;
+    position: absolute;
+    left: 25%;
+    transform: translateX(-50%);
+}
 .navDivv{
-    display: flex;
     margin-top: 30px;
-    margin-left: 180px;
+    display: flex;
+    position: absolute;
+    left: 60%;
+    transform: translateX(-50%);
     color: white;
 }
 
@@ -435,4 +441,88 @@ background-position: center;
     margin-left: 10px;
     width: 40px;
     height: 8px;
+}
+
+.nashH2{
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 700px;
+}
+
+.matenadaran{
+    margin-top: 40px;
+    background-color: red;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)),  url(./picture/matenadaran.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    width: 1515px;
+    height: 500px;
+    display: flex;
+    color: white;
+}
+
+.matenadarann{
+    margin-top: 150px;
+    background-color: red;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)),  url(./picture/matenadaran.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    width: 1515px;
+    height: 500px;
+    display: flex;
+    color: white;
+}
+
+.matenadaranOne{
+    margin-top: -50px;
+    
+    width: 550px;
+    height: 600px;
+}
+
+.matenadaranTwoPicture{
+    margin-top: -50px;
+    margin-left: 275px;
+    width: 550px;
+    height: 600px;
+}
+
+.matenadaranTwo{
+    max-width: 600px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.matenadaranTwoo{
+    max-width: 600px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+
+.h9{
+    margin-bottom: 20px;
+}
+
+.divPod{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+.divPodd{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.proektLogo{
+    max-width: 480px;
+}
+
+.proektLogoo{
+    max-width: 610px;
+    margin-left: 80px;
 }
