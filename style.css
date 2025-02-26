@@ -1,19 +1,49 @@
-.header{
+.header {
     background-color: red;
     background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)),  url(./picture/headerbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 1550;
-    height: 695px;
-    
-    
+    width: 100%; 
+    height: 695px; 
 }
 
-.navDiv{
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 500px; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .header {
+        height: 300px;
+    }
+}
+
+
+.navDiv {
     display: flex;
     justify-content: flex-start;
-    margin-left: 550px;
+    margin-left: 550px; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .navDiv {
+        margin-left: 0; 
+        justify-content: center; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .navDiv {
+        margin-left: 0; 
+        flex-direction: column; 
+        justify-content: center; 
+    }
 }
 
 a {
@@ -34,10 +64,29 @@ h5{
     padding-left: 150px;
 }
 
-.headerh1{
+.headerh1 {
     color: white;
-    margin-left: 330px;
-    margin-top: 120px;
+    margin-left: 330px; 
+    margin-top: 120px; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .headerh1 {
+        margin-left: 0; 
+        margin-top: 80px; 
+        text-align: center; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .headerh1 {
+        margin-left: 0;
+        margin-top: 50px; 
+        text-align: center;
+        font-size: 1.5rem; 
+    }
 }
 
 .arrowOne{
@@ -52,9 +101,36 @@ h5{
     
 }
 
-.icon{
+
+.icon {
     color: white;
     display: flex;
+}
+
+
+.headerIcon {
+    margin-left: 500px; 
+    margin-top: 50px;   
+}
+
+
+@media screen and (max-width: 768px) {
+    .headerIcon {
+        margin-left: 0; 
+        margin-top: 30px; 
+        justify-content: center; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .headerIcon {
+        margin-left: 0; 
+        margin-top: 20px;
+        justify-content: center; 
+        width: 100%; 
+        display: flex; 
+    }
 }
 
 .iconvk{
@@ -63,50 +139,131 @@ h5{
     width: 20px;
     height: 20px;
 }
-.headerIcon{
-    margin-left: 500px;
-    margin-top: 50px;
+
+
+.mainFirstDiv {
+    margin-bottom: 800px; 
+    width: 1500px; 
+    height: 100vh; 
+}
+
+@media screen and (max-width: 768px) {
+    .mainFirstDiv {
+        width: 100%; 
+        margin-bottom: 400px; 
+    }
 }
 
 
-.mainFirstDiv{
-   margin-bottom: 800px;
-    
-    width: 1500px;
-    height: 100vh;
+@media screen and (max-width: 480px) {
+    .mainFirstDiv {
+        width: 100%; 
+        margin-bottom: 200px; 
+        height: auto; 
+    }
 }
 
 
-.mainFirstImage{
-    margin-left: 180px;
-    width: 700px;
-    height: 1000px;
+.mainFirstImage {
+    margin-left: 285px; 
+    width: 700px; 
+    height: 1000px; 
     z-index: -1;
     position: absolute;
-    margin-left: 285px;
-}
-
-.main01{
-    margin-left: 350px;
-    margin-top: 55px;
 }
 
 
-.mainFirstOnas{
+@media screen and (max-width: 768px) {
+    .mainFirstImage {
+        width: 500px; 
+        height: 700px; 
+        margin-left: 50px; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .mainFirstImage {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        position: relative; 
+    }
+}
+
+
+
+
+.main01 {
+    margin-left: 350px; 
+    margin-top: 55px; 
+}
+
+@media screen and (max-width: 768px) {
+    .main01 {
+        margin-left: 50px; 
+        margin-top: 40px;  
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .main01 {
+        margin-left: 0; 
+        margin-top: 20px; 
+        text-align: center; 
+    }
+}
+
+.mainFirstOnas {
     width: 400px;
     margin-top: 40px;
     margin-left: 290px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .mainFirstOnas {
+        width: 300px; 
+        margin-top: 30px; 
+        margin-left: 50px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mainFirstOnas {
+        width: 90%; 
+        margin-top: 20px;
+        margin-left: 0; 
+        text-align: center;
+    }
 }
 
 .mainFirstTwo {
     display: flex;
 }
 
+.imgMask {
+    margin-top: 50px; 
+    width: 800px; 
+    height: 600px; 
+}
 
-.imgMask{
-    margin-top: 50px;
-    width:800px;
-     height:600px;
+@media screen and (max-width: 768px) {
+    .imgMask {
+        width: 600px; 
+        height: 450px; 
+        margin-top: 40px; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .imgMask {
+        width: 100%; 
+        height: auto; 
+        margin-top: 20px; 
+    }
 }
 
 .mainTwoDiv{
@@ -115,11 +272,30 @@ h5{
     margin-left: 50px;
 }
 
-.mainTwo{
-    margin-top: 40px;
+
+.mainTwo {
+    margin-top: 40px; 
     margin-left: 30px;
     width: 500px;
 }
+
+@media screen and (max-width: 768px) {
+    .mainTwo {
+        margin-left: 20px; 
+        width: 80%; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .mainTwo {
+        margin-left: 10px; 
+        width: 90%; 
+        margin-top: 20px; 
+    }
+}
+
+
 
 .mainTwoPicture{
     display: flex;
@@ -135,8 +311,8 @@ h5{
 .mainThree{
    
     background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url(./picture/threePicture.jpg);
-    background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; 
+  background-repeat: no-repeat; 
   background-size: cover;
     max-width: 100%;
     height: 500px;
@@ -148,33 +324,94 @@ h5{
     z-index: 2;
     width: 1100px;
     position: absolute;
-    /* width: 700px;
-    height: 1000px;
-    
-    position: absolute; */
-   
+
 }
 .picture02{
     margin-top: 60px;
     margin-left: 1150px;
 }
 
-.mainThreeOneSection{
+
+.mainThreeOneSection {
     color: white;
     display: flex;
+    align-items: center; 
+    justify-content: space-between; 
     margin-top: 40px;
-    margin-left: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; 
+    max-width: 920px; 
 }
 
-.mainTreeArrow{
-    margin-left: 500px;
+.mainTreeArrow {
+    margin-left: auto; 
 }
 
 
-.mainTreePart{
+@media (max-width: 1024px) {
+    .mainThreeOneSection {
+        width: 95%;
+    }
+    .mainTreeArrow {
+        margin-left: 50px; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .mainThreeOneSection {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+    }
+    .mainTreeArrow {
+        margin-left: 0; 
+        margin-top: 20px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .mainThreeOneSection {
+        width: 100%;
+    }
+}
+
+
+.mainTreePart {
     display: flex;
-    margin-left: 160px;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-left: auto; 
+    margin-right: 20px; 
+    gap: 20px; 
 }
+
+
+@media (max-width: 1024px) {
+    .mainTreePart {
+        margin-left: auto; 
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .mainTreePart {
+        flex-direction: column; 
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .mainTreePart {
+        gap: 10px; 
+    }
+}
+
 
 .mainTreePartOne{
     width: 450px;
@@ -244,21 +481,69 @@ h5{
 }
 
 
-.icon{
+.icon {
     display: flex;
-    margin-left: 180px ;
-    margin-top: 30px;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 0px;
 }
 
-.iconOne{
+.iconOne {
     width: 140px;
     height: 140px;
-    margin-left: 60px;
+    margin: 20px;
 }
-.iconTwo{
+
+.iconTwo {
     width: 340px;
     height: 160px;
-    margin-left: 60px;
+    margin: 20px;
+}
+
+
+@media (max-width: 1024px) {
+    .icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .iconOne {
+        width: 120px;
+        height: 120px;
+    }
+
+    .iconTwo {
+        width: 280px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 768px) {
+    .icon {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .iconOne,
+    .iconTwo {
+        width: 100px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .iconOne {
+        width: 80px;
+        height: 80px;
+    }
+
+    .iconTwo {
+        width: 200px;
+        height: 100px;
+    }
 }
 
 .mainFiveOne{
@@ -273,12 +558,6 @@ h5{
     width: 40px;
     height: 30px;
 }
-/* margin-left: 180px;
-    width: 700px;
-    height: 1000px;
-    z-index: -1;
-    position: absolute;
-    margin-left: 285px; */
 
 .mainFiveTwo{
     margin-top: 50px;

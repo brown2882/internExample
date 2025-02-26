@@ -149,7 +149,7 @@
     width: 20px;
     height: 20px;
     margin-top: 20px;
-    margin-left: 250px;
+    margin-left: 180px;
 
 }
 .vectorUsulugi{
@@ -278,18 +278,45 @@ background-position: center;
 }
 
 
-.footerUslugi{
+
+
+.footerUslugi,
+.footerUslugi2 {
     display: flex;
-    margin-top: 150px;
-    margin-bottom: 100px;
-    margin-left: 100px;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 1200px; 
 }
 
-.footerUslugi2{
-    display: flex;
-    margin-top: 150px;
-    margin-bottom: 100px;
-    margin-left: 190px;
+
+@media (max-width: 1024px) {
+    .footerUslugi, .footerUslugi2 {
+        width: 95%;
+        margin-top: 8vh;
+        margin-bottom: 4vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .footerUslugi, .footerUslugi2 {
+        flex-direction: column; 
+        align-items: center;
+        margin-top: 6vh;
+        margin-bottom: 3vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .footerUslugi, .footerUslugi2 {
+        width: 100%;
+        margin-top: 4vh;
+        margin-bottom: 2vh;
+    }
 }
 
 
@@ -320,7 +347,7 @@ background-position: center;
     max-width: 100%;
     min-height: 500px;
     z-index: -3;
-    /* position: absolute; */
+    
 }
 
 .uslugi2P{
@@ -449,62 +476,249 @@ background-position: center;
     margin-right: 700px;
 }
 
-.matenadaran{
+
+
+.matenadaran {
     margin-top: 40px;
     background-color: red;
-    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)),  url(./picture/matenadaran.jpg);
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)),  
+        url(./picture/matenadaran.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom center;
-    width: 1515px;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
     height: 500px;
+    min-height: 500px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
+    
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.matenadarann{
+
+@media (max-width: 1024px) {
+    .matenadaran {
+        min-height: 400px;
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .matenadaran {
+        min-height: 300px;
+        margin-top: 20px;
+        padding: 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .matenadaran {
+        min-height: 250px;
+        margin-top: 10px;
+        padding: 10px;
+    }
+}
+
+
+.matenadaran1 {
     margin-top: 150px;
     background-color: red;
-    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)),  url(./picture/matenadaran.jpg);
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)),  
+        url(./picture/matenadaran.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom center;
-    width: 1515px;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
     height: 500px;
+    min-height: 500px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
-}
-
-.matenadaranOne{
-    margin-top: -50px;
     
-    width: 550px;
-    height: 600px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.matenadaranTwoPicture{
-    margin-top: -50px;
-    margin-left: 275px;
-    width: 550px;
-    height: 600px;
+
+@media (max-width: 1024px) {
+    .matenadaran1 {
+        min-height: 400px;
+        margin-top: 100px;
+    }
 }
 
-.matenadaranTwo{
+
+@media (max-width: 768px) {
+    .matenadaran1 {
+        min-height: 300px;
+        margin-top: 80px;
+        padding: 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .matenadaran1 {
+        min-height: 250px;
+        margin-top: 50px;
+        padding: 10px;
+    }
+}
+
+
+
+.matenadaranOnee, .matenadaranOne {
+    margin-top: 0px;
+    width: 100%;
     max-width: 600px;
-    margin-left: 300px;
-    margin-top: 30px;
+    height: auto;
+    min-height: 600px;
+    display: block;
 }
 
-.matenadaranTwoo{
+
+@media (max-width: 1024px) {
+    .matenadaranOnee, .matenadaranOne {
+        max-width: 500px;
+        min-height: 350px;
+    }
+    .matenadaranOnee {
+        margin-top: -20px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .matenadaranOnee, .matenadaranOne {
+        max-width: 80%;
+        min-height: 300px;
+    }
+    .matenadaranOnee {
+        margin-top: -20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .matenadaranOnee, .matenadaranOne {
+        max-width: 90%;
+        min-height: 250px;
+    }
+    .matenadaranOnee {
+        margin-top: -10px;
+    }
+}
+
+.matenadaranTwoPicture {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     max-width: 600px;
-    margin-left: 80px;
-    margin-top: 30px;
+    height: auto;
+    min-height: 600px;
+    display: block;
 }
 
 
-.h9{
-    margin-bottom: 20px;
+@media (max-width: 1024px) {
+    .matenadaranTwoPicture {
+        max-width: 450px;
+        min-height: 350px;
+    }
 }
+
+
+@media (max-width: 768px) {
+    .matenadaranTwoPicture {
+        max-width: 80%;
+        min-height: 300px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .matenadaranTwoPicture {
+        max-width: 90%;
+        min-height: 250px;
+    }
+}
+
+
+
+.matenadaranTwo {
+    max-width: 600px;
+    width: 100%;
+    margin: 30px auto 0 230px; /* Centers the element */
+    padding: 0 20px; /* Adds spacing on smaller screens */
+}
+
+/* Tablet View */
+@media (max-width: 1024px) {
+    .matenadaranTwo {
+        max-width: 500px;
+        margin-top: 25px;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .matenadaranTwo {
+        max-width: 90%;
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+}
+
+/* Small Mobile View */
+@media (max-width: 480px) {
+    .matenadaranTwo {
+        max-width: 95%;
+        margin-top: 15px;
+    }
+}
+
+
+.matenadaranTwoo {
+    max-width: 600px;
+    width: 100%;
+    margin: 30px auto 0 auto; 
+    padding: 0 20px; 
+}
+
+
+@media (max-width: 1024px) {
+    .matenadaranTwoo {
+        max-width: 500px;
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .matenadaranTwoo {
+        max-width: 90%;
+        margin-top: 15px;
+        padding: 0 10px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .matenadaranTwoo {
+        max-width: 95%;
+        margin-top: 10px;
+    }
+}
+
+
 
 .divPod{
     display: flex;
@@ -608,4 +822,262 @@ background-position: center;
     height: 150px;
     margin-top: 120px;
     margin-left: 20px;
+}
+
+.vectorNovsti{
+        z-index: -2;
+        position: absolute;
+        left: 180px; 
+        width: auto; 
+        max-width: 88%;
+}
+
+@media (max-width: 768px) { 
+    .vectorNovsti {
+        left: -20px; 
+    }
+}
+
+@media (max-width: 480px) { 
+    .vectorNovsti {
+        left: 40px; 
+    }
+}
+
+.novstiH2{
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 900px;
+    font-size: 60px;
+}
+
+.novstiDiv{
+    display: flex;
+}
+
+.novstiDiv4{
+    display: flex;
+    margin-top: 35px;
+}
+
+.novstiDivv{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.matenadarann{
+    width: 700px;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 210px;
+}
+
+
+.matenadarannOne {
+    width: 80%; 
+    max-width: 600px; 
+    height: auto; 
+    max-height: 400px; 
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; /
+}
+
+@media (max-width: 1024px) {
+    .matenadarannOne {
+        width: 90%;
+        max-width: 600px;
+        max-height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .matenadarannOne {
+        width: 95%;
+        max-width: 500px;
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .matenadarannOne {
+        width: 100%;
+        max-width: 400px;
+        max-height: 250px;
+        margin-top: 10px;
+    }
+}
+
+
+.pNovsti{
+    max-width: 600px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+
+.novstiDivOne {
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+
+
+
+.novstiDivTwo{
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+.matenadaranni{
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 700px;
+    height: 400px;
+}
+
+
+.novstiDivTwo {
+    margin-left: 2%; 
+    margin-top: 10vh; 
+}
+
+.matenadaranni {
+    margin-top: 8vh;
+    margin-left: 3%;
+    width: 80%; 
+    max-width: 600px; 
+    height: auto; 
+    max-height: 400px; 
+}
+
+@media (max-width: 1024px) {
+    .novstiDivTwo {
+        margin-left: 2%;
+        margin-top: 4vh;
+    }
+
+    .matenadaranni {
+        width: 90%;
+        max-width: 600px;
+        max-height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .novstiDivTwo {
+        margin-left: 1%;
+        margin-top: 3vh;
+    }
+
+    .matenadaranni {
+        width: 95%;
+        max-width: 500px;
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .novstiDivTwo {
+        margin-left: 0;
+        margin-top: 2vh;
+    }
+
+    .matenadaranni {
+        width: 100%;
+        max-width: 400px;
+        max-height: 250px;
+        margin-left: 0;
+    }
+}
+
+/* ///////// */
+
+@media (max-width: 1024px) { 
+    .novstiDivOne {
+        margin-left: 80px; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .novstiDivOne {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 480px) { 
+    .novstiDivOne {
+        margin-left: 10px;
+    }
+}
+
+.novstiArrow{
+    margin-top: 30px;
+    display: flex;
+}
+
+
+/* //////// */
+
+.h1novsti {
+    margin-top: 5vh; 
+    margin-left: auto;
+    margin-right: 450px;
+    text-align: center; 
+    font-size: 2rem;
+    max-width: 90%; 
+}
+
+.novsti2{
+    display: flex;
+    
+}
+
+
+.novstiP{
+    font-size: 15px;
+    color: #7E7E7E;
+   
+    max-width: 990px;
+    margin: 4vh 0 0 43vh; 
+}
+
+.novsti2p {
+    margin: 8vh 0 0 43vh; /* Centers horizontally */
+    max-width: 30%; /* Adapts to different screen sizes */
+    width: 80%; /* Ensures it fills its container */
+    font-size: 15px;
+    color: #7E7E7E;
+}
+
+/* Tablet adjustments */
+@media (max-width: 1024px) {
+    .novsti2p {
+        max-width: 90%;
+    }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .novsti2p {
+        max-width: 95%;
+        text-align: center; /* Optional: Center text on mobile */
+    }
+}
+
+/* Small screen adjustments */
+@media (max-width: 480px) {
+    .novsti2p {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+.matenadatranNovsti{
+    width: 600px;
+    height: 500px;
 }
