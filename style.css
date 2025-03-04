@@ -197,19 +197,14 @@ h5{
 
 @media screen and (max-width: 768px) {
     .mainFirstImage {
-        width: 400px; 
-        height: 200px; 
-        margin-left: 50px; 
+        display: none;
     }
 }
 
 
 @media screen and (max-width: 480px) {
     .mainFirstImage {
-        width: 200px;
-        height: 100px;
-        margin-left: 0;
-        position: relative; 
+        display: none;
     }
 }
 
@@ -273,8 +268,7 @@ h5{
 
 @media screen and (max-width: 768px) {
     .imgMaskTwoPicture {
-        width: 400px; 
-        height: 450px; 
+        display: none;
          
     }
 }
@@ -282,8 +276,7 @@ h5{
 
 @media screen and (max-width: 480px) {
     .imgMaskTwoPicture {
-        width: 200px; 
-        height: 200px; 
+        display: none;
     }
 }
 
@@ -328,17 +321,14 @@ h5{
 
 @media screen and (max-width: 768px) {
     .mainTwo {
-        margin-left: 20px; 
-        width: 80%; 
+        display: none;
     }
 }
 
 
 @media screen and (max-width: 480px) {
     .mainTwo {
-        margin-left: 10px; 
-        width: 60%; 
-        margin-top: 20px; 
+       display: none;
     }
 }
 
@@ -454,14 +444,14 @@ h5{
         margin-left: auto;
     }
     .mainTreeArrow {
-        margin-left: 0; 
-        margin-top: 20px; 
+        display: none;
     }
 }
 
 
 @media (max-width: 480px) {
     .mainThreeOneSection {
+        padding-top: 80px;
         width: 100%;
     }
 }
@@ -494,6 +484,9 @@ h5{
 
 
 @media (max-width: 480px) {
+    .arrow4{
+        display: none;
+    }
     .mainTreePart {
         gap: 10px; 
     }
@@ -738,17 +731,13 @@ h5{
 
 @media screen and (max-width: 768px) {
     .mainFivePicture {
-        width: 40%; 
-        max-width: 300px; 
-        height: 200px;
+        display: none;
     }
 }
 
 @media screen and (max-width: 480px) {
     .mainFivePicture {
-        width: 20%; 
-        max-width: 150px; 
-        height: 120px;
+      display: none;
     }
 }
 
